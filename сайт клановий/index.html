@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKANDAL FAMILY – Офіційний сайт клану</title>
+    <!-- Підключення Font Awesome для іконок -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Підключення бібліотеки для анімації -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1b1b1b;
+            color: #f1f1f1;
+            line-height: 1.6;
+            animation: fadeIn 2s;
+        }
+        header {
+            position: relative;
+            width: 100%;
+            height: 400px; /* Висота заголовка */
+            background-image: url('image.png'); /* Замініть на ваш шлях до зображення */
+            background-size: cover; /* Масштабування по ширині і висоті */
+            background-position: center; /* Центрування зображення */
+            background-repeat: no-repeat; /* Заборона повторення зображення */
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+            flex-wrap: wrap; /* Дозволяє переносити елементи меню */
+        }
+        nav a {
+            margin: 5px;
+            text-decoration: none;
+            color: #f1f1f1;
+            font-weight: bold;
+            transition: color 0.3s;
+            font-size: 1em;
+        }
+        nav a:hover {
+            color: #e63946;
+        }
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .social-icons a {
+            margin: 10px;
+            color: #f1f1f1;
+            font-size: 2em;
+            transition: transform 0.3s;
+        }
+        .social-icons a:hover {
+            color: #e63946;
+            transform: scale(1.1);
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #f1f1f1;
+        }
+        @media (max-width: 768px) {
+            header {
+                height: 250px; /* Зменшена висота для мобільних пристроїв */
+            }
+            nav a {
+                font-size: 0.9em; /* Менший розмір шрифту для меню */
+            }
+            section {
+                padding: 10px; /* Менше відступів для мобільних пристроїв */
+            }
+            .social-icons a {
+                font-size: 1.5em; /* Зменшений розмір іконок */
+            }
+        }
+        @media (max-width: 480px) {
+            nav {
+                flex-direction: column; /* Вертикальне розташування для маленьких екранів */
+                align-items: center;
+            }
+            .social-icons a {
+                font-size: 1.2em; /* Ще менший розмір іконок */
+            }
+            .gallery {
+                grid-template-columns: 1fr; /* Одноколонковий макет для маленьких екранів */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header></header>
+
+<nav>
+    <a href="#about">Про клан</a>
+    <a href="#criteria">Критерії вступу</a>
+    <a href="#gallery">Галерея</a>
+    <a href="#leader">Лідер клану</a>
+</nav>
+
+<section id="about" data-aos="fade-up">
+    <h2>Про нас</h2>
+    <p>Клан "SKANDAL FAMILY" об'єднує гравців, які прагнуть до перемог та підтримують один одного у грі. Ми граємо як одна команда і завжди націлені на результат.</p>
+</section>
+
+<section id="criteria" data-aos="fade-up">
+    <h2>Критерії вступу</h2>
+    <ul>
+        <li>Вік: 16+</li>
+        <li>50/150+ матчів за сезон</li>
+        <li>KD: дівчата 2 і вище, хлопці 4 і вище</li>
+        <li>Активність у бесіді клану обов'язкова</li>
+    </ul>
+</section>
+
+<section id="gallery" data-aos="fade-up">
+    <h2>Галерея</h2>
+    <div class="gallery">
+        <img src="image1.jpg" alt="Game Moment 1">
+        <img src="image2.jpg" alt="Game Moment 2">
+        <img src="image3.jpg" alt="Game Moment 3">
+    </div>
+</section>
+
+<section id="leader" data-aos="fade-up">
+    <h2>Лідер клану</h2>
+    <p>Наш лідер - THE MERCY. Слідкуйте за ним у соціальних мережах:</p>
+    <div class="social-icons">
+        <a href="https://www.instagram.com/_g.sladkovsky.g_" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@90_к♥️🥹_g.sladkovsky.g_" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+        <a href="https://t.me/LAST_MERCY" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 SKANDAL FAMILY. Всі права захищені.</p>
+</footer>
+
+<!-- Підключення бібліотеки для анімації -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</body>
+</html>
